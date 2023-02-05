@@ -41,8 +41,6 @@ function App() {
     };
   }, [sliderOn, images.length, currentImgIndex]);
 
-  console.log(currentImgIndex);
-
   return (
     <section className="App">
       <article>
